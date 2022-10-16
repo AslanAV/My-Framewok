@@ -15,10 +15,12 @@
         }
     ],
     "require": {
+        "PHP": "^8.1",
         "squizlabs/php_codesniffer": "^3.7.1"
     },
     "require-dev": {
-        "phpstan/phpstan": "^1.8",
-        "phpunit/phpunit": "^9.5"
+        "roave/security-advisories": "dev-latest",
+        "phpstan/phpstan": "^1.8.9",
+        "phpunit/phpunit": "^9.5.25"
     }
 }
